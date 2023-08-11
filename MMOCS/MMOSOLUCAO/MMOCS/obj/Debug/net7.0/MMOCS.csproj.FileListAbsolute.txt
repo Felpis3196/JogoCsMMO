@@ -1,0 +1,15 @@
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\bin\Debug\net7.0\MMOCS.exe
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\bin\Debug\net7.0\MMOCS.deps.json
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\bin\Debug\net7.0\MMOCS.runtimeconfig.json
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\bin\Debug\net7.0\MMOCS.dll
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\bin\Debug\net7.0\MMOCS.pdb
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.csproj.AssemblyReference.cache
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.AssemblyInfoInputs.cache
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.AssemblyInfo.cs
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.dll
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\refint\MMOCS.dll
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.pdb
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\MMOCS.genruntimeconfig.cache
+C:\Users\Aluno\OneDrive - SESISENAISP - Escolas\Área de Trabalho\MMOCS\MMOSOLUCAO\MMOCS\obj\Debug\net7.0\ref\MMOCS.dll
