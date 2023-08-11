@@ -26,15 +26,17 @@ namespace MMOCS
                 $"Com um overral de {(Vida + Forca + Defesa + Agilidade) / 4}"
                 );
         }
-        public virtual void atacar(Personagem inimigo)
+        public void atacar(Personagem inimigo)
         {
-            int dano = Math.Max(0, Forca - inimigo.Defesa);
+            int dano =  this.Forca - (inimigo.Defesa + inimigo.Agilidade)/5;
             inimigo.Vida -= dano;
             Console.WriteLine($"{Nome} ataca {inimigo.Nome} e causa {dano} de dano.");
         }
         public void regenerarVida()
         {
             int quantidadeRegenerada = QI / 2;
+
+
             Vida = Math.Min(100, Vida + quantidadeRegenerada);
             Console.WriteLine($"{Nome} regenera {quantidadeRegenerada} de vida.");
         }

@@ -11,42 +11,42 @@ internal class Program
         Mago Bia = new Mago();
         Bia.Nome = "Beatrice";
         Bia.Nivel = 2;
-        Bia.QI = 2;
-        Bia.Agilidade = 56;
-        Bia.Vida = 65;
+        Bia.QI = 75;
+        Bia.Agilidade = 50;
+        Bia.Vida = 100;
         Bia.Raca = "Humana";
-        Bia.Forca = 73;
+        Bia.Forca = 70;
         Bia.Defesa = 40;
 
         Cavaleiro At = new Cavaleiro();
         At.Nome = "Atena";
         At.Nivel = 2;
         At.QI = 30;
-        At.Agilidade = 53;
-        At.Vida = 76;
+        At.Agilidade = 50;
+        At.Vida = 150;
         At.Raca = "Humana";
-        At.Forca = 82;
-        At.Defesa = 37;
+        At.Forca = 65;
+        At.Defesa = 40;
 
         Anao An = new Anao();
         An.Nome = "Jiorge";
         An.Nivel = 2;
-        An.QI = 19;
-        An.Agilidade = 24;
-        An.Vida = 92;
+        An.QI = 20;
+        An.Agilidade = 25;
+        An.Vida = 175;
         An.Raca = "Anao";
-        An.Forca = 69;
-        An.Defesa = 87;
+        An.Forca = 60;
+        An.Defesa = 90;
 
         Elfo El = new Elfo();
         El.Nome = "Jambo";
         El.Nivel = 4;
-        El.QI = 87;
-        El.Agilidade = 69;
-        El.Vida = 54;
+        El.QI = 90;
+        El.Agilidade = 80;
+        El.Vida = 55;
         El.Raca = "Elfo";
-        El.Forca = 27;
-        El.Defesa = 31;
+        El.Forca = 30;
+        El.Defesa = 35;
 
         Console.WriteLine("Bem vindos a Maden Fight! a arena onde sai apenas um campeão");
         Console.WriteLine("Selecione seu jogador:");
@@ -106,34 +106,36 @@ internal class Program
         while (true)
         {
             Console.WriteLine("Selecione a ação:");
-            Console.WriteLine("1 - Usar Poção de Cura\n2 - Atacar\n3 - Subir de Nivel\n4 - Sair");
+            Console.WriteLine("1 - Usar Poção de Cura\n2 - Atacar\n3 - Sair");
             int escolha = Convert.ToInt32(Console.ReadLine());
 
             if (escolha == 1)
             {
                 jogador.regenerarVida();
-                if (inimigo.Vida <= 0)
-                {
-                    Console.WriteLine("Você derrotou seu Inimigo");
-                    break;
-                }
+                inimigo.atacar(jogador);
+                Console.WriteLine($"{inimigo.Nome} te atacou e você ficou com {jogador.Vida} de vida");
             }
             else if (escolha == 2)
             {
                 jogador.atacar(inimigo);
                 Console.WriteLine($"Seu inimigo ficou com:{inimigo.Vida} de vida!");
+                Console.WriteLine($"Seu inimigo contra atacou!");
+                inimigo.atacar(jogador);
+                Console.WriteLine($"{inimigo.Nome} te atacou e você ficou com {jogador.Vida} de vida");
 
                 if (inimigo.Vida <= 0)
                 {
                     Console.WriteLine("Você derrotou seu Inimigo");
+                    jogador.subirNivel();
+                    break;
+                }
+                if(jogador.Vida <= 0)
+                {
+                    Console.WriteLine("Você foi derrotado tente novamente!");
                     break;
                 }
             }
             else if (escolha == 3)
-            {
-                jogador.subirNivel();
-            }
-            else if (escolha == 4)
             {
                 break;
             }
